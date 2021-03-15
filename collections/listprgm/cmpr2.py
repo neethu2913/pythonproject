@@ -10,4 +10,3 @@ while(pos1<len([arr1]))&(pos2>len([arr2])):
         pos2+=1
     else:
         pos1+=1
-

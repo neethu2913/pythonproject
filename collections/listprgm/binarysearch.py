@@ -12,7 +12,7 @@ while(low<=upp):
         upp=mid-1
     elif(element==arr[mid]):
         flag=1
-        break
+        break1
 if(flag==0):
     print("element not found")
 else:

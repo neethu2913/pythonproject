@@ -9,5 +9,7 @@
 def print_emp_data(**args):#dictinry format  #(*args):#tuple
    for k,v in args.items():
        print(k,v)
+print_emp_data(eid=100,res="kakkanad",job="idukki")
 
-print_emp_data(eid=100,job="kakkanad" ,home="idukki") #dict   #tuple:(100,kakkanad,thirussr)
+
+#dict   #tuple:(100,kakkanad,thirussr)
