@@ -1,3 +1,4 @@
+#find the min age of employee using constructor
 class person:
     def __init__(self,age,name):
         self.age=age
@@ -12,4 +13,4 @@ employees.append(p3)
 age=[]
 for emp in employees:
     age.append(emp.age)
-print(max(age))
+print(min(age))

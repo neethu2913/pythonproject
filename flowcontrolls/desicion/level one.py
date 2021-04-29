@@ -7,8 +7,6 @@
 #else;
   #stat2
 
-
-
 age=int(input("enter age"))#17
 if(age>=18):
       print("u are eligible for voting")

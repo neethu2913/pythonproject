@@ -6,7 +6,6 @@ class child(parent):
     pass
 ch=child()
 ch.phone()
-
 #multilevel inheritance
 class parent:
     def m1(self):

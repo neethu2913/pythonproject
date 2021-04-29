@@ -1,4 +1,5 @@
-print()
-print(current_year = 20211,27)
-print(birthof_year=1999,11,29)
+
+current_year=2021
+birthof_year=1999
 calculate_age=(current_year)-(birthof_year)
+print(calculate_age)

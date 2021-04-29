@@ -1,0 +1,23 @@
+#top{
+    border: 5px solid black;
+    width: 32%;
+    margin-left: 32%;
+    background-color: blue;
+}
+
+#footer{
+    border: 5px solid black;
+    width: 32%;
+    margin-left: 32%;
+    margin-top: 23%;
+    background-color: brown;
+    
+}
+#top h3{
+    position: relative;
+    left: 34%;
+}
+#footer h3{
+    position: relative;
+    left: 35%;
+}

@@ -10,7 +10,6 @@ class book:
 
     def __str__(self):
         return str(self.pages) #str(self.pages) =int convert to string/ (return self.page) =eroor occur  $int val
-
 obj=book(100)
 obj1=book(200)
 obj2=book(150)

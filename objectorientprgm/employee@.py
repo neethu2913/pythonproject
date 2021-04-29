@@ -7,13 +7,11 @@ class emp:
         self.exp=int(exp)
     def __str__(self):
         return self.name
-
 f=open("employee","r")
 employee=[]
 for line in f:
   eid,name,desig,sal,exp=line.rstrip("\n").split(",")
   employee.append(emp(eid,name,desig,sal,exp))
-
 #map(functionalprogramming)
 name=list(map(lambda emp:emp.name,employee))
 print(name)

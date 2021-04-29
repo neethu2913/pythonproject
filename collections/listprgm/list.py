@@ -6,5 +6,5 @@ lst=[
 lst=[]
 for num in lst:
     print("num:"+_str(lst))
-      res=(lst)[1:-1]
- print("remove:"+res)
+res=(lst)[1:-1]
+print("remove:"+res)

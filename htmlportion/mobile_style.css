@@ -1,0 +1,20 @@
+body{
+    background-color: darkblue;
+}
+.headone{
+    color: beige;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: underline ;
+}
+div{
+    border: 4px solid goldenrod;
+    width: 31%;
+    background-color: gray;
+    float: left;
+    
+}
+img{
+    width: 100% ;
+    height: 400px;
+}

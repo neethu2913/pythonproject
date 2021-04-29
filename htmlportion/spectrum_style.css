@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Chango', cursive;
+}
+body{
+    background-color: white;
+}
+.headone{
+    color: coral;
+    font-weight: bold;
+    text-align: center;
+}
+div{
+    width: 20%;
+    height: 500px;
+}
+.color1{
+    background-color: blue;
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    
+}
+.color2{
+    background-color: darkgreen ;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+}
+.color3{
+    background-color: yellow;
+    position: absolute;
+    top: 25%;
+    left: 52%;
+}
+.color4{
+    background-color: brown;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+}

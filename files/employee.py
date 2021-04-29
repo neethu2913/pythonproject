@@ -14,15 +14,12 @@ employee={
 #
 #else:
 #   print("invalid eid")
-
 def print_employee_details(**kwargs):#dict
   id=kwargs["eid"]
-
   if id in employee:
     print(employee[id]["ename"])
     prop=kwargs["property"]
     print(employee[id][prop])
   else:
     print("id not exist")
-
 print_employee_details(eid=1002,property="desig")

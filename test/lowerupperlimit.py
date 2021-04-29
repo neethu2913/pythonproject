@@ -4,4 +4,7 @@ upper=int(input("enter the upper range"))
 
 for i in range(1,(upper+1)):
     if i**num in range(low,upper+1):
-      print(i**num)
+        i=upper+1
+    else:
+        i=low-1
+print(i**num)

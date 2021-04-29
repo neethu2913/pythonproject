@@ -1,0 +1,14 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.profile{
+    background-color: rgb(105, 213, 221);
+    color: white;
+    text-align: center;
+}
+.sec{
+    background-color: teal;
+   width: 23;
+    
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="todoid" placeholder="enterid">
+    <button onclick="createTodo()">fetchdata</button>
+    <table class="table">
+        <tr>
+            <td>userId</td>
+            <td>id</td>
+            <td>title</td>
+            <td>completed</td>
+        </tr>
+        <tbody id="dataarea"></tbody>
+    </table>
+</body>
+<script>
+    function populate(dataset) {
+        let html_data = "";
+        for (let user of dataset) {
+            html_data += `<tr><td>${user.userId}</td><td>${user.id}</td><td>${user.title}</td><td>${user.completed}</td></tr>`
+        }
+        document.querySelector("#dataarea").innerHTML = html_data
+    }
+    function createTodo(){
+        document.querySelector("#todoid").value
+  
+    var request = new XMLHttpRequest()
+    request.open("get", "https://github.com/typicode/jsonplaceholder/users")
+    request.send()
+    request.onreadystatechange = () => {
+        if (request.readyState == 4) {
+            if (request.status > 199 & request.status < 300) {
+                let dataset = JSON.parse(request.responseText)
+                populate(dataset)
+            }
+            else {
+                alert("failed")
+            }
+        }
+    }  }
+</script>
+
+</html>

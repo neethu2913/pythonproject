@@ -4,4 +4,4 @@ if (num1>=num2):
     print("the num is largest")
 
 else:
-    print("the num is nott largest")
+    print("the num is not largest")

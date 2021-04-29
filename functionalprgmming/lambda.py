@@ -2,7 +2,7 @@
 #filter
 #reduce
 lst=[1,2,3,4,5]
-sq=list(map(lambda num:num**2,lst))
+sq=list(map(lambda num:num*2,lst))
      #fx=lamba num:num**2
      #list(map(fx.lst))
 print(sq)

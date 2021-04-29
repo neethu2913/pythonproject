@@ -1,5 +1,4 @@
 ft=open("teams","r")
-
 fd=open("dropped","r")
 st=set()
 def get_team_set(f):
@@ -9,7 +8,6 @@ def get_team_set(f):
     return st
 st1=get_team_set(ft)
 st2=get_team_set(fd)
-
 qualifier=st1-st2
 print(qualifier)
 

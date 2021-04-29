@@ -7,7 +7,6 @@ lst=[]
 
 for regno in f:
     regno=regno.rstrip("\n")
-    print(regno)
     match=fullmatch(rule,regno)
     if match!=None:
       lst.append(regno)
