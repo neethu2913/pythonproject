@@ -6,8 +6,6 @@ iplpoints=[ {"team": "csk", "mp":6, "won":5, "los":1,"pts":10},
                {"team": "dc", "mp":6,"won":4,"los":2,"pts":8},
                {"team": "pbks","mp":6, "won":2,"los":4, "pts":4}
             ]
-#count
-
 
 #sorted
 iplpoints.sort(key=lambda item: item.get("pts"))               
@@ -22,3 +20,7 @@ print((highestpoint))
 #lowest point
 lowestpoint=min(list(map(lambda dict:dict["pts"],iplpoints)))
 print(lowestpoint)
+
+#count
+iplpoints=len([ele for ele in iplpoints if isinstance(ele,dict)])
+print(iplpoints)
